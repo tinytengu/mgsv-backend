@@ -47,6 +47,7 @@ class MissionAdmin(admin.ModelAdmin):
     list_filter = ("chapter", "type")
     search_fields = ("chapter", "title", "slug")
     readonly_fields = ("slug",)
+    ordering = ("id",)
     save_on_top = True
     inlines = (
         MissionObjectiveAdminInline,
