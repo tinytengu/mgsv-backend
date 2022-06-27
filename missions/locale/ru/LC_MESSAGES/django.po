@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-27 21:50+0300\n"
+"POT-Creation-Date: 2022-06-27 22:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,8 +71,6 @@ msgid "title"
 msgstr "заголовок"
 
 #: .\models.py:52
-#, fuzzy
-#| msgid "Chapter"
 msgctxt "Mission chapter"
 msgid "chapter"
 msgstr "Глава"
