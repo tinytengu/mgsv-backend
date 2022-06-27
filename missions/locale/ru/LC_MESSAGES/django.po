@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-27 14:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\models.py:9
+msgid "Default"
+msgstr "Стандартное"
+
+#: .\models.py:10
+msgid "Flashback"
+msgstr "Воспоминание"
+
+#: .\models.py:11
+msgid "Autonomy"
+msgstr "Автономно"
+
+#: .\models.py:12
+msgid "Stealth"
+msgstr "Скрытно"
+
+#: .\models.py:16
+msgid "Primary"
+msgstr "Первичное"
+
+#: .\models.py:17
+msgid "Secondary"
+msgstr "Вторичное"
+
+#: .\models.py:32
+msgid "title"
+msgstr "заголовок"
+
+#: .\models.py:34
+msgctxt "Mission chapter"
+msgid "chapter"
+msgstr "глава"
+
+#: .\models.py:36
+msgid "number"
+msgstr "номер"
+
+#: .\models.py:39
+msgid "type"
+msgstr "тип"
+
+#: .\models.py:50
+msgid "Mission"
+msgstr "Миссия"
+
+#: .\models.py:51
+msgid "Missions"
+msgstr "Миссии"
+
+#: .\models.py:71
+msgid "Objective"
+msgstr "Задание"
+
+#: .\models.py:72
+msgid "Objectives"
+msgstr "Задания"
+
+#: .\models.py:81
+msgid "Fact"
+msgstr "Факт"
+
+#: .\models.py:82
+msgid "Facts"
+msgstr "Факты"
+
+#: .\models.py:95
+msgid "Dialog"
+msgstr "Диалог"
+
+#: .\models.py:96
+msgid "Dialogs"
+msgstr "Диалоги"
+
+#: .\views.py:9
+msgid "Hello, dude"
+msgstr "Привет, братан"
