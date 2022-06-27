@@ -3,10 +3,20 @@ from rest_framework import serializers
 from .models import *
 
 
+class CharacterSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Character
+        fields = "__all__"
+
+
 class DialogSerializer(serializers.ModelSerializer):
     class Meta:
         model = Dialog
         fields = "__all__"
+
+
+class DialogSerializerExtended(DialogSerializer):
+    character = CharacterSerializer(read_only=True)
 
 
 class FactSerializer(serializers.ModelSerializer):
